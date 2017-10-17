@@ -1,0 +1,10 @@
+bin/
+.classpath
+build.properties
+.properties
+.openscripts
+classes/
+.settings/
+results/
+target/
+config/credentials.properties
