@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcase xmlns="http://xlt.xceptance.com/xlt-script/2" version="7" id="1A" baseURL="https://demo-na01-tatcha.demandware.net">
+  <action name="OpenStartPage"/>
+  <command name="open" value="/s/SiteGenesis/home?lang=en_US"/>
+  <action name="XLT_Sauce-0"/>
+  <command name="clickAndWait" target="link=WOMENS"/>
+  <action name="XLT_Sauce-1"/>
+  <command name="clickAndWait" target="//*[@id='primary']//img[1]"/>
+  <action name="XLT_Sauce-2"/>
+  <command name="clickAndWait" target="//div[@id='main']/div[4]/div[1]/div[2]/a/img"/>
+  <action name="XLT_Sauce-3"/>
+  <command name="clickAndWait" target="link=Turquoise Jewelry Bundle"/>
+  <action name="XLT_Sauce-4"/>
+  <command name="clickAndWait" target="//*[@id='mini-cart']//a[contains(@class,'button') and contains(@class,'mini-cart-link-cart')][1]"/>
+</testcase>
