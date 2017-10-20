@@ -3,5 +3,6 @@
   <action name="OpenStartPage"/>
   <command name="open" value="/s/SiteGenesis/home?lang=en_US"/>
   <action name="TC_01-0"/>
+  
   <command name="clickAndWait" target="//div[@id='wrapper']/div[2]/h1/a/img"/>
-</testcase>
+</testcase> 

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testcase xmlns="http://xlt.xceptance.com/xlt-script/2" version="7" id="TC_03" baseURL="http://demo-na01-tatcha.demandware.net">
   <action name="OpenStartPage"/>
+  
   <command name="open" value="/s/SiteGenesis/home?lang=en_US"/>
   <action name="TC_03-0"/>
   <command name="clickAndWait" target="link=NEW ARRIVALS"/>
