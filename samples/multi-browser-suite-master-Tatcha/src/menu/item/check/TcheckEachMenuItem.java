@@ -15,7 +15,7 @@ import com.xceptance.xlt.api.engine.scripting.ScriptName;
  * TODO: Add class description
  */
 
-@ScriptName("menu.item.check.TcheckEachMenu")
+//@ScriptName("menu.item.check.TcheckEachMenu")
 public class TcheckEachMenuItem extends AbstractWebDriverScriptTestCase
 {
 

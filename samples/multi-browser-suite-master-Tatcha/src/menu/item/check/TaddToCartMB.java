@@ -11,7 +11,7 @@ import xltutil.annotation.TestTargets;
 /**
  * <p>This is a simple demo for a Google search and will demonstrate how the multi browser suite works.</p>
  */
-@ScriptName("menu.item.check.TaddToCart")
+//@ScriptName("menu.item.check.TaddToCart")
 @TestTargets(
                 {
 //                    

@@ -14,7 +14,7 @@ import bwdrivers.BrowserDriver;
 /*
  * NOTE: This file is generated. Do not edit! Your changes will be lost.
  */
-@ScriptName("menu.item.check.TcheckEachMenu")
+//@ScriptName("menu.item.check.TcheckEachMenu")
 public class TcheckEachMenu extends AbstractScriptTestCase
 {
 	private String baseURL = "http://demo-na01-tatcha.demandware.net";

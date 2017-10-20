@@ -31,9 +31,9 @@
 	               <version>2.20</version>
 	               <configuration>
 	                   <includes>
-	                      <!-- <include>com/company/tests/T*.java</include> -->
-	                       <include>menu/item/check/T*.java</include> 
-
+	                      <!-- <include>com/company/tests/T*.java</include> 
+	                       <exclude>menu/item/check/Tcheck*.java</exclude> -->
+ 						    <include>com/test/TC*.java</include> 
 	                   </includes>
 	                   <systemPropertyVariables>
 	                       <!-- Relocate the XLT results directory under target. -->

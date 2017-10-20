@@ -1,7 +1,7 @@
 /*
  * NOTE: This file is generated. Do not edit! Your changes will be lost.
  */
-package menu.item.check;
+package com.test;
 import com.xceptance.xlt.api.engine.scripting.ScriptName;
 
 import xltutil.AbstractAnnotatedScriptTestCase;
@@ -11,7 +11,7 @@ import xltutil.annotation.TestTargets;
 /**
  * <p>This is a simple demo for a Google search and will demonstrate how the multi browser suite works.</p>
  */
-//@ScriptName("menu.item.check.TcheckEachMenu")
+@ScriptName("com.test.TC_01")
 @TestTargets(
                 {
 //                    
@@ -23,10 +23,10 @@ import xltutil.annotation.TestTargets;
 //                    "FF_1024x768", 
 //                    "FF_1500x1000",
                     "Safari10_SauceLabs",
-                    "Galaxy_Note3_Emulation", 
-                    "iphone5"
+//                    "Galaxy_Note3_Emulation", 
+//                    "iphone5"
                 })
-public class TcheckEachMenuItemMB extends AbstractAnnotatedScriptTestCase
+public class TC_01 extends AbstractAnnotatedScriptTestCase
 {
 
 }
